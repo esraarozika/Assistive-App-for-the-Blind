@@ -1,16 +1,25 @@
-# accesible_text_to_speech
+# Assistive App for the Blind
 
-A new Flutter application.
+An assistive mobile application that helps blind users or non-native Arabic speakers read printed Arabic text using OCR and text-to-speech.
 
-## Getting Started
+## 🧠 Features
+- Capture image via mobile
+- Detect Arabic text using Tesseract OCR
+- Text-to-speech output using gTTS
+- Image preprocessing with OpenCV
+- REST API built with Flask
 
-This project is a starting point for a Flutter application.
+## 🛠️ Technologies
+- Python, Flask (Backend)
+- Flutter, Dart (Frontend)
+- MongoDB, Docker, OpenCV, Tesseract, gTTS, AWS
 
-A few resources to get you started if this is your first Flutter project:
+## 🧪 Demo
+[Watch Demo Video](https://bit.ly/3yesafv)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 How to Run (Backend)
+```bash
+git clone https://github.com/esraarozika/blind_assistive_app.git
+cd blind_assistive_app
+pip install -r requirements.txt
+python app.py
