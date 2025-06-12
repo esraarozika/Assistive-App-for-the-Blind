@@ -68,8 +68,7 @@ python app.py
 
 ## 📂 Folder Structure:
 
-<code>
-<pre>
+
 project-folder/
 ├── backend/
 │   ├── app.py
@@ -81,8 +80,6 @@ project-folder/
 │   └── screenshot.png
 ├── Dockerfile
 └── README.md
-</pre>
-<code>
 
 ---
 
