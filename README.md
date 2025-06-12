@@ -1,19 +1,96 @@
-# Assistive App for the Blind
+# 🧠 Assistive App for the Blind
 
-An assistive mobile application that helps blind users or non-native Arabic speakers read printed Arabic text using OCR and text-to-speech.
+A mobile and web-based assistive tool designed to help blind individuals and non-native Arabic speakers read printed Arabic text.  
+The system captures images, extracts text using OCR, and converts it into speech in real-time.
 
-## 🧠 Features
-- Capture image via mobile
-- Detect Arabic text using Tesseract OCR
-- Text-to-speech output using gTTS
-- Image preprocessing with OpenCV
-- REST API built with Flask
+---
 
-## 🛠️ Technologies
-- Python, Flask (Backend)
-- Flutter, Dart (Frontend)
-- MongoDB, Docker, OpenCV, Tesseract, gTTS, AWS
+## ✨ Features
 
-## 🧪 Demo
-[Watch Demo Video](https://bit.ly/3yesafv)
+- 📸 Capture images via mobile
+- 🔍 Preprocess and enhance images for better OCR
+- 🧠 Detect text regions using EAST deep learning model
+- 📝 Recognize Arabic text using Tesseract OCR
+- 🔊 Convert recognized text into audio using gTTS
+- 🌐 RESTful backend API built with Flask
+- 📱 Mobile frontend built with Flutter
+- ☁️ Deployed with Docker and integrated with AWS
+- 🧠 Data stored in MongoDB
+
+---
+
+## 🛠️ Technologies Used
+
+- **Backend:** Python, Flask, Tesseract OCR, gTTS, OpenCV
+- **Frontend:** Flutter (Dart)
+- **AI/ML:** EAST text detection model
+- **Database:** MongoDB
+- **DevOps:** Docker, AWS
+
+---
+
+## 🚀 How It Works
+
+1. The user captures an image through the mobile app.
+2. The image is sent to the Flask REST API.
+3. The image is preprocessed and passed through:
+   - OpenCV (preprocessing)
+   - EAST model (text region detection)
+   - Tesseract OCR (Arabic text recognition)
+4. Recognized text is converted to speech via gTTS.
+5. Audio is streamed back to the user.
+
+---
+
+## 📸 Screenshot
+
+![Assistive App UI](https://github.com/esraarozika/blind_assistive_app/blob/main/assets/screenshot.png)
+
+*(Upload your screenshot to the repo if not yet added.)*
+
+---
+
+## 📹 Demo Video
+
+🎥 [Watch the full demo](https://bit.ly/3yesafv)
+
+---
+
+## 🧪 How to Run (Backend)
+
+```bash
+git clone https://github.com/esraarozika/blind_assistive_app.git
+cd blind_assistive_app
+pip install -r requirements.txt
+python app.py
+
+---
+
+## 📂 Folder Structure:
+
+<code>
+<pre>
+project-folder/
+├── backend/
+│   ├── app.py
+│   ├── ocr_module.py
+│   └── requirements.txt
+├── mobile/
+│   └── Flutter code
+├── assets/
+│   └── screenshot.png
+├── Dockerfile
+└── README.md
+</pre>
+<code>
+
+---
+
+## 📌 Notes
+
+*Tesseract must be installed and configured to recognize Arabic (language pack required).
+
+*The system is tested on printed Arabic texts and optimized for clarity.
+
+*Voice output is in Modern Standard Arabic using Google TTS.
 
