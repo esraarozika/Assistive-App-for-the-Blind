@@ -17,9 +17,3 @@ An assistive mobile application that helps blind users or non-native Arabic spea
 ## 🧪 Demo
 [Watch Demo Video](https://bit.ly/3yesafv)
 
-## 🚀 How to Run (Backend)
-```bash
-git clone https://github.com/esraarozika/blind_assistive_app.git
-cd blind_assistive_app
-pip install -r requirements.txt
-python app.py
