@@ -58,7 +58,6 @@ The system captures images, extracts text using OCR, and converts it into speech
 
 ## 🧪 How to Run (Backend)
 
-```bash
 git clone https://github.com/esraarozika/blind_assistive_app.git
 cd blind_assistive_app
 pip install -r requirements.txt
@@ -68,18 +67,20 @@ python app.py
 
 ## 📂 Folder Structure:
 
+<pre>
+   project-folder/
+   ├── backend/
+   │   ├── app.py
+   │   ├── ocr_module.py
+   │   └── requirements.txt
+   ├── mobile/
+   │   └── Flutter code
+   ├── assets/
+   │   └── screenshot.png
+   ├── Dockerfile
+   └── README.md
+</pre>
 
-project-folder/
-├── backend/
-│   ├── app.py
-│   ├── ocr_module.py
-│   └── requirements.txt
-├── mobile/
-│   └── Flutter code
-├── assets/
-│   └── screenshot.png
-├── Dockerfile
-└── README.md
 
 ---
 
